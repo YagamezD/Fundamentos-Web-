@@ -1,0 +1,21 @@
+h1 {
+    background-color: black;
+    text-align: left;
+    font-family: monospace;
+    color: aqua;
+}
+
+h2 {
+    background-color: blueviolet;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+}
+
+h3 {
+    background-color: aquamarine;
+    text-align: right;
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: blue;
+}
