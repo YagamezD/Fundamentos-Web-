@@ -1,0 +1,32 @@
+.button {
+    color: #7dc8c8;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    border-color: #7dc8c8;
+    border-style: double;
+    font-weight: 800;
+}
+
+.button2 {
+    border-radius: 50px;
+    border-style: hidden;
+    background-color: #00d1b2;
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.button3 {
+    background-color: #2b78e4;
+    width: 150px;
+    height: 40px;
+    color: white;
+    box-shadow: 5px 6px 5px 0px #000000;
+}
+
+#box1 {
+    margin-top: 100px;
+    margin-left: 80px;
+}
