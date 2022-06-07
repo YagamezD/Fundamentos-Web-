@@ -1,0 +1,40 @@
+.nav {
+    background-color: #3b3a30;
+    display: flex;
+    border-radius: 20px;
+    width: 1350px;
+    height: 100px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    margin: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-title {
+    color: white;
+    margin: 20px;
+    margin-right: 800px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.active {
+    color: white;
+}
+
+.btn {
+    color: white;
+    background-color: blue;
+    border: 3px solid black;
+}
