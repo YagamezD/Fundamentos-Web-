@@ -1,0 +1,181 @@
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+/* Header*/
+
+.head {
+    background-color: #3b3a30;
+    display: flex;
+    width: 1366px;
+    height: 60px;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.a2 {
+    text-decoration: none;
+    color: grey;
+    margin: 20px;
+}
+
+.nav-title {
+    color: white;
+    margin: 20px;
+    margin-left: 400px;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(50, 153, 153);
+    border: 3px solid black;
+    height: 50px;
+    margin-left: 200px;
+}
+
+
+/* Perfil */
+
+.user-card {
+    width: 600px;
+    background-color: white;
+    border: 2px solid gray;
+    margin: 0 auto;
+    /*Centrar el documento y Generando margen automatico*/
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.card-header {
+    height: 100px;
+    background-color: rgb(50, 153, 153);
+    margin-bottom: 70px;
+}
+
+.avatar {
+    height: 110px;
+    position: relative;
+    top: 40px;
+    left: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+}
+
+.card-body {
+    padding: 0px 20px 20px 45px;
+}
+
+.icon {
+    height: 20px;
+    margin-right: 20px;
+}
+
+h1,
+h3,
+p {
+    margin-bottom: 20px;
+}
+
+.color {
+    background-color: gray;
+    margin-top: 5px;
+}
+
+.edu {
+    width: 600px;
+    height: 160px;
+    border: 2px solid gray;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 560px;
+}
+
+#color {
+    background-color: rgb(50, 153, 153);
+    height: 50px;
+    width: 600px;
+    color: white;
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+}
+
+.conection,
+.lista {
+    border: 2px solid gray;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+h3 {
+    background-color: rgb(50, 153, 153);
+    height: 50px;
+    width: 210px;
+    color: white;
+    text-align: center;
+}
+
+.lista {
+    height: 420px;
+}
+
+.icons {
+    height: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.lis {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    border-top: 2px solid grey;
+}
+
+.a {
+    margin: 15px 0 15px 0;
+}
+
+.usuario {
+    height: 45px;
+    margin-right: 35px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+span {
+    background-color: gray;
+    border-radius: 60%;
+    border: 2px solid gray;
+}
