@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <h1>Dojonary</h1>
+        <input type="search" placeholder="Busca tu Archivo" id="Buscador" />
+        <button class="btn-azul" onclick="cambiar_login(this)">Login</button>
+
+    </nav>
+    <div class="container">
+        <div class="card">
+            <h1>Ninja</h1>
+            <h2>Noun</h2>
+            <p class="p">Plural: ninjas</p>
+            <button class="btn-amarillo" onclick="alerta()">13 likes</button>
+        </div>
+
+        <div>
+            <p class="parrafo"> A practitioner skilled in the japanese art of ninjutsu<br>in the <span>Japanese</span> art of <span>ninjutsu</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="card">
+            <h1>Ninja</h1>
+            <h2>Noun</h2>
+            <p class="p">Plural: ninjas</p>
+            <button class="btn-amarillo">37 likes</button>
+        </div>
+
+        <div>
+            <p class="parrafo"> A programmer who breaks down<br> problems with <span>zen</span>-likefocus
+            </p>
+        </div>
+    </div>
+
+    <div class="paf">
+        <h3>Dojonary is defined by <b>YOU</b></h3>
+        <button class="btn-verde" onclick="remover(this)">ADD  DEFINITION</button>
+    </div>
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
